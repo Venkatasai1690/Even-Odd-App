@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  align-items: center;
+  border-radius: 12px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 400px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.count-info {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #334155;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.note {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #334155;
+}
